@@ -1,0 +1,8 @@
+<!-- In this lesson I was introduced to using hexadecimal digits to color using CSS. The numbers range from 0-9 and then A-F and allow for a wider range of color options than simply using the color name -->
+<!-- Changed doctype to match freeCodeCamp -->
+
+<style>
+  body {
+    background-color: #000000;
+  }
+</style>
