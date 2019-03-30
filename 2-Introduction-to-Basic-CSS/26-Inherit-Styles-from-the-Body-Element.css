@@ -1,0 +1,13 @@
+<!-- In this lesson I learned that if a style is included in the body element, all elements would automatically include the same styles -->
+<!-- Changed doctype to match freeCodeCamp -->
+
+<style>
+  body {
+    background-color: black;
+    color: green;
+    font-family: monospace;
+  }
+
+</style>
+
+<h1>Hello World</h1>
