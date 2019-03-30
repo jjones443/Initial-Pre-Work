@@ -1,0 +1,8 @@
+<!-- In this lesson I learned to use direct values between 0-255 for each of the red, green, and blue color models -->
+<!-- Changed doctype to match freeCodeCamp -->
+
+<style>
+  body {
+    background-color: rgb(0, 0, 0);
+  }
+</style>
