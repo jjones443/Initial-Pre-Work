@@ -1,0 +1,8 @@
+<!-- In this lesson I learned that when unspecified, an html doctype has an automatic body element --> 
+<!-- Changed doctype to match freeCodeCamp -->
+
+<style>
+  body {
+    background-color: black;
+  }
+</style>
