@@ -1,0 +1,26 @@
+<!-- In this lesson I learned that similar to flex-shrink, flex-grow will increase the size of an item based on the number value assigned. The bigger the value, the bigger the item will grow in comparison to other items in the flex container -->
+<!-- Changed doctype to match freeCodeCamp --> 
+
+<style>
+  #box-container {
+    display: flex;
+    height: 500px;
+  }
+  
+  #box-1 {
+    background-color: dodgerblue;
+    height: 200px;
+    flex-grow: 1;
+  }
+  
+  #box-2 {
+    background-color: orangered;
+    height: 200px;
+    flex-grow: 2;
+  }
+</style>
+
+<div id="box-container">
+  <div id="box-1"></div>
+  <div id="box-2"></div>
+</div>
