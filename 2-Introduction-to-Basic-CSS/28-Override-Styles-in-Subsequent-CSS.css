@@ -1,0 +1,15 @@
+<!-- In this lesson I confirmed my previous understanding that styles can have an order of priority depending on their place above or below another style for the same element -->
+<!-- Changed doctype to match freeCodeCamp -->
+
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+
+  .pink-text {
+    color: pink;
+  }
+</style>
+<h1 class="pink-text">Hello World!</h1>
