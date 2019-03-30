@@ -1,0 +1,27 @@
+<!-- In this lesson I learned the opposite of the justify content property in that items can be moved along the cross-axis. When using align-items in a row, the flex-start would position items at the top instead of towards the left. Two new options of stretch and baseline will cause the items to fill the container or go to their text baseline respectively -->
+<!-- Changed doctype to match freeCodeCamp --> 
+
+<style>
+  #box-container {
+    background: gray;
+    display: flex;
+    height: 500px;
+    align-items: center;
+  }
+  #box-1 {
+    background-color: dodgerblue;
+    width: 200px;
+    font-size: 24px;
+  }
+
+  #box-2 {
+    background-color: orangered;
+    width: 200px;
+    font-size: 18px;
+  }
+</style>
+
+<div id="box-container">
+  <div id="box-1"><p>Hello</p></div>
+  <div id="box-2"><p>Goodbye</p></div>
+</div> 
