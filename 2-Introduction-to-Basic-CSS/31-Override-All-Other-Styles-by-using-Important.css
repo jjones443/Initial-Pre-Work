@@ -1,0 +1,20 @@
+<!-- In this lesson I learned that the use of important would be the most specific way to ensure CSS and is used only when needed to be absolutely sure a style stays the way it needs to when using CSS libraries -->
+<!-- Changed doctype to match freeCodeCamp -->
+
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+  #orange-text {
+    color: orange;
+  }
+  .pink-text {
+    color: pink !important;
+  }
+  .blue-text {
+    color: blue;
+  }
+</style>
+<h1 id="orange-text" class="pink-text blue-text" style="color: white">Hello World!</h1>
