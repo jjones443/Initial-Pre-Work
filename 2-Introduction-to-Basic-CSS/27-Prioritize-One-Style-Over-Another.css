@@ -1,0 +1,15 @@
+<!-- In this lesson I learned that if a style is added on below another style for a specific element, that style would be used instead -->
+<!-- Changed doctype to match freeCodeCamp -->
+
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+
+  .pink-text {
+    color: pink;
+  }
+</style>
+<h1 class="pink-text">Hello World!</h1>
