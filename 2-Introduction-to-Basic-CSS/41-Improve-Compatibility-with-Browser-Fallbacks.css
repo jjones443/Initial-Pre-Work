@@ -1,0 +1,15 @@
+<!-- In this lesson I learned to add additional fallback options for older browsers that may not accept variables. This is to prevent any unwanted changes from browser to browser -->
+<!-- Changed doctype to match freeCodeCamp -->
+
+<style>
+  :root {
+    --red-color: red;
+  }
+  .red-box {
+    background: red;
+    background: var(--red-color);
+    height: 200px;
+    width:200px;
+  }
+</style>
+<div class="red-box"></div>
