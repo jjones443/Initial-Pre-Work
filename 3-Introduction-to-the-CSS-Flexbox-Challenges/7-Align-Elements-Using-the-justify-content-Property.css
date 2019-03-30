@@ -1,0 +1,27 @@
+<!-- In this lesson I learned how to arrange flex items within the flex container. The main-axis changes from left to right in a row to top to bottom in a colum. When using justify-content, flex items can be moved around from left(or top) using flex start, right(or bottom) using flex end, center using center, with space between each other and the container using space around, or on the edges of the container using space between -->
+<!-- Changed doctype to match freeCodeCamp --> 
+
+<style>
+  #box-container {
+    background: gray;
+    display: flex;
+    height: 500px;
+    justify-content: center;
+  }
+  #box-1 {
+    background-color: dodgerblue;
+    width: 25%;
+    height: 100%;
+  }
+
+  #box-2 {
+    background-color: orangered;
+    width: 25%;
+    height: 100%;
+  }
+</style>
+
+<div id="box-container">
+  <div id="box-1"></div>
+  <div id="box-2"></div>
+</div>
